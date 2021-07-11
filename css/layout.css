@@ -23,5 +23,23 @@
 }
 
 /* Positioning Classes */
+.column {
+  display: inline-block;
+  }
 
+.column.small {
+  width: 33%;
+  margin-top: 5px;
+}
+.column.small-width {
+  width: 33%;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+.column.medium {
+  width: 66.3%;
+}
 
+.small.text-align {
+  vertical-align: text-top;
+}
